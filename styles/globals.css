@@ -1,26 +1,10 @@
 html,
 body {
-  padding: 0;
-  margin: 0;
+  background-color: #F0F3F7;
+  font-size: 0.85em;
+  line-height: 1.4;
+  overflow:auto;
+  margin:0 auto;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
 }
