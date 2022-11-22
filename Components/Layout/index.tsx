@@ -9,9 +9,7 @@ export default function Layout(props:any){
                 <AppHeader/>
             </header>
             <main>
-                <Grid container>
-                    {props.children}
-                </Grid>
+                {props.children}
             </main>
             <footer>
                 <AppFooter />
