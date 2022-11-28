@@ -1,7 +1,6 @@
 import styles from "./AppHeader.module.css";
 import Image from 'next/image'
 import AppNav from "../AppNav/nav";
-import {Grid} from "@mui/material";
 
 export default function AppHeader (props:any){
     return(

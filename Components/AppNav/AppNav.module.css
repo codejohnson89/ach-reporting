@@ -22,7 +22,7 @@
    flex-grow: 0;
 }       
 
-.Menu a {
+.Menu button, .homeLink {
     gap: 4px;
     font-family: 'Inter';
     font-style: normal;

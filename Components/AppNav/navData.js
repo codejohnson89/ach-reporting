@@ -1,17 +1,13 @@
 export const navData = [
-    {
-        navHeading: 'Home',
-        link: '/',
-        lvlTwo:[
-           
-        ]
-    },{
+   {
+        id: 2,
         navHeading: 'Merchant',
         link: '',
+        hasSubs:true,
         lvlTwo:[
             {
                 subNavHeading: 'Statement',
-                link:"",
+                link:"Merchant/Statement.tsx",
             },
             {
                 subNavHeading: 'Invoice',
@@ -41,8 +37,10 @@ export const navData = [
             }
         ]
     },{
+        id: 3,
         navHeading: 'Partner',
         link: '',
+        hasSubs:true,
         lvlTwo:[
             {
                 subNavHeading: 'Statement',
@@ -59,8 +57,10 @@ export const navData = [
             },
         ]
     },{
+        id: 4,
         navHeading: 'Processing',
         link: '',
+        hasSubs:true,
         lvlTwo:[
             {
                 subNavHeading: 'Transaction Detail',
@@ -98,8 +98,10 @@ export const navData = [
             },
         ]
     },{
+        id: 5,
         navHeading: 'Accounting',
         link: '',
+        hasSubs:true,
         lvlTwo:[
             {
                 subNavHeading: 'Returns',
