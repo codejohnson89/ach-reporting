@@ -2,7 +2,7 @@ import styles from "./AppHeader.module.css";
 import Image from 'next/image'
 import AppNav from "../AppNav/nav";
 import AppUserArea from "../AppUserArea/AppUserArea";
-import LogoImg from "/../public/HeartlandLogo.png";
+import LogoImg from "../../public/HeartlandLogo.png";
 
 export default function AppHeader (props:any){
     return(
