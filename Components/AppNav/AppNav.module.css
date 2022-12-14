@@ -1,0 +1,37 @@
+.Menu{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+    width: 661px;
+    height: 54px;
+    flex: none;
+    flex-grow: 0;
+}
+
+.Menu li {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   gap: 4px;
+   height: 54px;
+   background: #FCFCFC;
+   border-radius: 100px;
+   flex: none;
+   flex-grow: 0;
+}       
+
+.Menu button, .homeLink {
+    gap: 4px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #203645;
+    flex: none;
+    flex-grow: 0;
+    text-decoration: none;
+    padding: 16px;
+}

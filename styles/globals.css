@@ -1,26 +1,77 @@
 html,
 body {
-  padding: 0;
-  margin: 0;
+  background-color: #F0F3F7;
+  font-size: 0.85em;
+  line-height: 1.4;
+  overflow:auto;
+  margin:0 auto;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+main{
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    height: 752px;
 }
 
-* {
-  box-sizing: border-box;
+section{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 32px;
+  width: 1120px;
+  /* height: 672px; */
+  background: #FCFCFC;
+  box-shadow: 0px 2px 2px rgba(2, 2, 15, 0.01), 0px 2px 4px rgba(2, 2, 15, 0.01), 0px 0px 24px rgba(2, 2, 15, 0.01), 0px 2px 72px rgba(2, 2, 15, 0.01);
+  border-radius: 12px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+h1{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 36px;
+  color: #203645;
+  display:flex;
+  flex: none;
+  /* order: 0; */
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+h3{
+  /* width: 1056px;
+  height: 32px; */
+  display:flex;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #203645;
+  flex: none;
+  /* order: 0; */
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+p{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  color: #6B747D;
+  flex: none;
+  /* order: 1; */
+  align-self: stretch;
+  flex-grow: 0;
 }

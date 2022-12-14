@@ -1,0 +1,25 @@
+.appFooter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0px;
+    gap: 8px;
+    margin:0 auto;
+    width: 1440px;
+    height: 124px;
+}
+
+.footerContentWrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    width: 1440px;
+    height: 44px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
