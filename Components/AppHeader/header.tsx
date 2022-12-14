@@ -2,6 +2,7 @@ import styles from "./AppHeader.module.css";
 import Image from 'next/image'
 import AppNav from "../AppNav/nav";
 import AppUserArea from "../AppUserArea/AppUserArea";
+import LogoImg from "/../public/HeartlandLogo.png";
 
 export default function AppHeader (props:any){
     return(
@@ -10,7 +11,7 @@ export default function AppHeader (props:any){
                 <div className={styles.headerContent}>
                     <div className={styles.site_title}>
                         <Image 
-                            src="/../public/HeartlandLogo.png" 
+                            src={LogoImg}
                             alt="Heartland Logo"
                             width={142}
                             height={24}
