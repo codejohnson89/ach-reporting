@@ -7,36 +7,33 @@ export const navData = [
         lvlTwo:[
             {
                 subNavHeading: 'Statement',
-                link:"Merchant/Statement.tsx",
+                link:"/Merchant/Statement",
             },
             {
                 subNavHeading: 'Invoice',
-                link:"",
+                link:"/Merchant/Invoice",
             },
             {
                 subNavHeading: 'Transaction Lookup',
-                link:"",
+                link:"/Merchant/TransactionLookup",
             },{
                 subNavHeading: 'Batch Lookup',
-                link:"",
+                link:"/Merchant/BatchLookup",
             },{
                 subNavHeading: 'Funding Lookup',
-                link:"",
+                link:"/Merchant/FundingLookup",
             },{
                 subNavHeading: 'Funded Transaction',
-                link:"",
-            },{
-                subNavHeading: 'Statement',
-                link:"",
+                link:"/Merchant/FundedTransaction",
             },{
                 subNavHeading: 'Submitted Transaction',
-                link:"",
+                link:"/Merchant/SubmittedTransaction",
             },{
                 subNavHeading: 'Returns',
-                link:"",
+                link:"/Merchant/Returns",
             }
         ]
-    },{
+     },{
         id: 3,
         navHeading: 'Partner',
         link: '',
@@ -44,16 +41,16 @@ export const navData = [
         lvlTwo:[
             {
                 subNavHeading: 'Statement',
-                link:"",
+                link:"/Partner/Statement",
             },{
                 subNavHeading: 'Invoice',
-                link:"",
+                link:"/Partner/Invoice",
             },{
                 subNavHeading: 'Funded Transaction',
-                link:"",
+                link:"/Merchant/FundedTransaction",
             },{
                 subNavHeading: 'Submitted Transaction',
-                link:"",
+                link:"/Merchant/SubmittedTransaction",
             },
         ]
     },{
@@ -64,37 +61,37 @@ export const navData = [
         lvlTwo:[
             {
                 subNavHeading: 'Transaction Detail',
-                link:"",
+                link:"/Processing/TransactionDetail",
             },{
                 subNavHeading: 'Transaction Summary',
-                link:"",
+                link:"/Processing/TransactionSummary",
             },{
                 subNavHeading: 'Transactions By Merchant',
-                link:"",
+                link:"/Processing/TransactionsByMerchant",
             },{
                 subNavHeading: 'Transactions By Batch',
-                link:"",
+                link:"/Processing/TransactionsByBatch",
             },{
                 subNavHeading: 'Return Summary',
-                link:"",
+                link:"/Processing/ReturnSummary",
             },{
                 subNavHeading: 'Boarding Stats',
-                link:"",
+                link:"/Processing/BoardingStats",
             },{
                 subNavHeading: 'Risk Summary',
-                link:"",
+                link:"/Processing/RiskSummary",
             },{
                 subNavHeading: 'Uncollected Invoices/ACH Exceptions',
-                link:"",
+                link:"/Processing/InvoicesExceptions",
             },{
                 subNavHeading: 'ACH Exceptions',
-                link:"",
+                link:"/Processing/ACHExceptions",
             },{
                 subNavHeading: 'Unsettled Transation Voids',
-                link:"",
+                link:"/Processing/UnsettledTransactions",
             },{
                 subNavHeading: 'Bank account Update Logs',
-                link:"",
+                link:"/Processing/BankAccountLog",
             },
         ]
     },{
@@ -105,41 +102,41 @@ export const navData = [
         lvlTwo:[
             {
                 subNavHeading: 'Returns',
-                link:"",
+                link:"/Accounting/Returns",
             },{
                 subNavHeading: 'Compensation',
-                link:"",
+                link:"/Accounting/Compensation",
             },{
                 subNavHeading: 'Income Statement',
-                link:"",
+                link:"/Accounting/IncomeStatement",
             },{
                 subNavHeading: 'Income/Charges',
-                link:"",
+                link:"/Accounting/IncomeCharges",
             },{
                 subNavHeading: 'Processing Balances',
-                link:"",
+                link:"/Accounting/ProcessingBalances",
             },{
                 subNavHeading: 'Return Balances',
-                link:"",
+                link:"/Accounting/ReturnBalances",
             },{
                 subNavHeading: 'Colonnade 1099k',
-                link:"",
+                link:"/Accounting/Colonnade1099k",
             },{
                 subNavHeading: 'Colonnade 1099k Summary',
-                link:"",
+                link:"/Accounting/Colonnade1099Summary",
             },{
                 subNavHeading: 'ODFI Exposure',
-                link:"",
+                link:"/Accounting/ODFIExposure",
             },{
                 subNavHeading: 'File Entries',
-                link:"",
+                link:"/Accounting/FileEntries",
             },{
                 subNavHeading: 'Activated Merchant',
-                link:"",
+                link:"/Accounting/ActivatedMerchant",
             },{
                 subNavHeading: 'Aging Deposits',
-                link:"",
+                link:"/Accounting/AgingDeposits",
             },
-        ]
-    },
+       ]
+    }
 ]

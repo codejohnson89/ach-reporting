@@ -1,0 +1,74 @@
+.notificationWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 24px;
+    /*width: 1040px;
+     height: 144px; */
+    background: #CDD1D3;
+    border-radius: 12px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin-bottom:40px;
+}
+
+.notificationHeader{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.notificationBody h3{
+    margin-top:0px;
+    margin-bottom:5px;
+    width: 952px;
+    height: 28px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    color: #203645;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.notificationBody{
+    display:flex;
+    flex-direction: row;
+}
+
+.notificationWrapper p{
+    margin-top:0px;
+    margin-bottom:0px;
+    /* width: 952px;
+height: 66px; */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #203645;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+.notificationIconHldr {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-top:4px;
+    margin-right:15px;
+}
+
+.notificationBodyHldr {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
