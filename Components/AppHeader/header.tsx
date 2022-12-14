@@ -1,6 +1,7 @@
 import styles from "./AppHeader.module.css";
 import Image from 'next/image'
 import AppNav from "../AppNav/nav";
+import AppUserArea from "../AppUserArea/AppUserArea";
 
 export default function AppHeader (props:any){
     return(
@@ -20,7 +21,7 @@ export default function AppHeader (props:any){
                         <AppNav/>
                     </nav>
                     <div className={styles.userInfoContainer}>
-                        user info
+                        <AppUserArea />
                     </div>
                 </div>
             </div>

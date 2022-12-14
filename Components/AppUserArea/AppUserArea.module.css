@@ -1,0 +1,23 @@
+.userAreaBtnHldr{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 16px 8px 8px;
+    gap: 8px;
+    width: 75px;
+    height: 42px;
+    background: #F0F3F7;
+    border-radius: 9999px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.userAreaBtn{
+    display: flex;
+    gap: 18px;
+}
+
+.userAreaBtn:hover{
+    background-color: transparent !important;
+}
